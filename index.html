@@ -1,737 +1,662 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="color-scheme" content="light dark">
-   <meta name="supported-color-schemes" content="light dark">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="color-scheme" content="light dark">
+	<meta name="supported-color-schemes" content="light dark">
 	<title>Travel Agency</title>
-        <link rel="icon" href="favicon.ico">
 	<style type="text/css">
-		
-
 		@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-      table {
+		table{
 			border-spacing: 0;
 		}
-		td {
+		td{
 			padding: 0;
 		}
-		p {
+		p{
 			font-size: 15px;
 		}
-		img {
+		img{
 			border: 0;
-			border-width:0;
+			border-width: 0;
 		}
-		a {
-			color: #277fd2;
+		a{
 			text-decoration: none;
+			color: blueviolet;
 		}
-		@media screen and (max-width: 599.98px) {
-			.px-600-0 {
-				padding-left: 0!important;
-				padding-right: 0!important;
-			}
-			.pt-600-0 {
-				padding-top: 0!important;
-			}
-			img.third-img-last {
+		@media screen and (max-width: 599.98px){
+			.third-img-last{
 				width: 200px!important;
 				max-width: 200px!important;
 			}
-			.d-600-none {
-				display: none!important;
-			}
-			.pr-large {
-				padding-right: 140px!important;
-			}
-			.center-text-mobile {
-				text-align: center!important;
-			}
 		}
-		@media screen and (max-width: 549.98px) {
-			.pt-550-0 {
-				padding-top: 0!important;
-			}
-			.pr-large {
-				padding-right: 100px!important;
-			}
+		@media screen and (max-width: 549.98){
+			
 		}
-		@media screen and (max-width: 499.98px) {
-			.pt-500-0 {
-				padding-top: 0!important;
-			}
-			.pr-large {
-				padding-right: 60px!important;
-			}
-		}
-		@media screen and (max-width: 399.98px) {
-			.banner {
-				height: auto!important;
-            padding-top: 50px!important;
-            padding-bottom: 30px!important;
-         }
-			.px-sm-0 {
-				padding-left: 0!important;
-				padding-right: 0!important;
-			}
-			.pt-400-0 {
-				padding-top: 0!important;
-			}
-			img.third-img {
-				width: 200px!important;
-				max-width: 200px!important;
-			}
-			.pr-large {
-				padding-right: 25px!important;
-			}
-		}
+		@media screen and (max-width: 499.98px){
 
-		/* Custom Dark Mode Colors */
-      :root {
-         color-scheme: light dark;
-         supported-color-schemes: light dark;
-      }
-      @media (prefers-color-scheme: dark) {
-         body, center, table, .darkmode-bg {
-            background: #2d2d2d!important;
-            color: #ffffff!important;
-         }
-         .darkmode-transparent {
-            background-color: transparent!important;
-         }
-      }
+		}
+		@media screen and (max-width: 399.98px){
+			.third-img{
+				width: 200px!important;
+				max-width: 200px!important;
+			}
+			.d-sm-0{
+				display: none;
+			}
+			.px-button-sm{
+				padding:10px!important;
+			}
+			.px-sm-0{
+				padding-left: 0!important;
+				padding-right: 0!important;
+			}
+		}
+		:root{
+			color-scheme: light dark;
+			-supported-color-scheme: light dark;
+		}
+		@media (prefers-color-scheme: dark){
+			body,center,table,.darkmode-bg{
+				background: #2d2d2d!important;
+				color: #ffffff!important;
+			}
+			.darkmode-transparent{
+				background-color: transparent!important;
+			}
+		}
 	</style>
-
-	<!--[if (gte mso 9)|(IE)]>
+	<!--[if(gte mso9)|(IE)]>
 		<style type="text/css">
-			table {border-collapse: collapse !important;}
+			table{
+				border-collapse: collapse!important;
+			}
 		</style>
 	<![endif]-->
-
 </head>
-<body style="Margin:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-width:100%;background-color:#F6F9FC;">
+<body style="min-width: 100%;Margin:0;background-color:#f6f9fc;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+	<!--[if(gte mso9)|(IE)]>
+		<style type="text/css">
+			body{
+				background-color: #f6f9fc!important;
+			}
+			body,table,td,p,a{
+				font-family: sans-serif,Arial,Helvetica!important;
+			}
+		</style>
+	<![endif]-->
+	<center style="width: 100%;table-layout:fixed;background-color:#f6f9fc;padding-bottom:40px;">
+		<div style="max-width: 600px;background-color: #ffffff;box-shadow: 0 0 10px rgba(0,0,0,.2);">
+			<div style="font-size: 0px;max-width:0px;max-height:0px;opacity:0;line-height:1px;-mso-line-height-rule:exactly;overflow:hidden;-mso-hide:all;color:#fafdfe;display:none;">
 
-   <!--[if (gte mso 9)|(IE)]>
-      <style type="text/css">
-         body {background-color: #F6F9FC!important;}
-         body, table, td, p, a {font-family: sans-serif, Arial, Helvetica!important;}
-      </style>
-   <![endif]-->
-
-	<center style="width: 100%;table-layout:fixed;background-color: #F6F9FC;padding-bottom: 40px;">
-		<div style="max-width: 600px;background-color: #ffffff;box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
-
-         <!-- Preheader (remove comment) -->
-         <div style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
-            <!-- Add Preheader Text Here (85-100 characters in length) -->
-         </div>
-         <!-- End Preheader (remove comment) -->
-
-			<!--[if (gte mso 9)|(IE)]>
+			</div>
+			<!--[if(gte mso9)|(IE)]>
 				<table width="600" align="center" style="border-spacing:0;color:#3d3d3d;" role="presentation">
 				<tr>
 				<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
 			<![endif]-->
-
-			<table align="center" style="border-spacing:0;color:#3D3D3D;font-family: 'Lato',sans-serif, Arial, Helvetica;background-color: #ffffff;Margin:0;padding-top: 0;padding-right: 0;padding-bottom: 0;padding-left: 0;width: 100%;max-width: 600px;" role="presentation">
-
-<!-- START LOGO -->
-				<tbody><tr>
-					<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-						<table width="100%" style="border-spacing:0;" role="presentation">
-
-							<tbody><tr>
-								<td style="background-color:#105191;padding-top:10px;padding-bottom:8px;width:100%;width:600px;text-align:center;">
-                	<a href="https://www.example.com" target="_blank"><p style="color:#ffffff;font-size:40px;font-weight:bold;"><img src="images/travel (1).png" alt="logo-white" width="60" style="border-width:0;" border="0">&nbsp Travel Agency</p></a>
-								</td>
-							</tr>
-
-						</tbody></table>
-					</td>
-				</tr>
-<!-- END LOGO -->
-
-<!-- START BANNER -->
-				<tr>
-					<td class="banner" background="images/pexels-thach-tran-756856.jpg" alt="water" width="600" height="350" style="background-position: center top;">
-
-						<!--[if (gte mso 9)|(IE)]>
-						<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:350px;">
-							<v:fill type="tile" src="images/pexels-thach-tran-756856.jpg" />
-							<v:textbox inset="0,0,0,0">
-						<![endif]-->
-
-						<table class="darkmode-transparent" cellpadding="0" cellspacing="0" role="presentation">
-							<tbody><tr>
-								<td width="600" align="center" valign="middle">
-									<table class="darkmode-transparent" cellpadding="0" cellspacing="0" role="presentation">
-										<tbody><tr>
-											<td align="center">
-												<table class="darkmode-transparent" role="presentation">
-													<tbody><tr>
-
-													<!--[if (gte mso 9)|(IE)]>
-                            <td style="padding-top:80px;padding-bottom:20px;"></td>
-                          <![endif]-->
-
-														<td valign="middle" align="center" style="padding-right: 10px;padding-left: 10px;vertical-align:middle;background-color:#105191;">
-															<p style="font-size: 30px;color: #ffffff;font-weight:bold;">OUR &nbsp NEWSLETTER</p>
-															<p align="center" style="font-size:18px;color: #ffffff;">Check your next destination.</p>
-														</td>
-													</tr>
-												</tbody></table>
-											 </td>
-										</tr>
-										<tr>
-											<td align="center" style="background-color:#105191;padding-bottom:30px;">
-												<table class="darkmode-transparent" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
-													<tbody><tr>
-
-														<td align="center" style="border-radius:5px;" bgcolor="#6b4e91">
-															<a href="https://example.com" target="_blank" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #ffffff;background-color: #6b4e91;border:2px solid #ffffff;border-radius:5px;padding:12px 18px;display: inline-block;">GET STARTED
-															</a>
-														</td>
-
-													</tr>
-												</tbody></table>
-											</td>
-										</tr>
-									</tbody></table>
-								</td>
-							</tr>
-							<tr>
-								<td height="25">&nbsp;</td>
-							</tr>
-						</tbody></table>
-
-						<!--[if (gte mso 9)|(IE)]>
-						</v:textbox>
-						</v:rect>
-						<![endif]-->
-
-					</td>
-				</tr>
-<!-- END BANNER -->
-
-<!-- START FULL WIDTH TEXT & BUTTONS -->
-				<tr>
-					<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-						<table width="100%" style="border-spacing:0;" role="presentation">
-							<tbody><tr>
-								<td style="padding-top:22px;padding-right:20px;padding-bottom:50px;padding-left:20px;width:100%;text-align:center;font-size:20px;">
-									<p style=" font-size:20px; font-weight:bold; padding-bottom: 5px;">Something about<strong style="color: #105191;"> us</strong></p>
-									<p style="font-size:15px; line-height: 23px; padding-bottom: 18px;text-align:justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis orci tellus, quis interdum eros suscipit in. Nulla facilisi. Sed semper laoreet tellus, vitae ultrices nibh. Quisque rhoncus eu nulla et congue. Mauris efficitur tortor diam. Ut finibus pellentesque dui sit amet sollicitudin. Suspendisse fermentum ligula libero.</p>
-
-									<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
-										<tbody><tr>
-											<td align="center">
-												<table border="0" cellspacing="0" cellpadding="0" role="presentation">
-													<tbody><tr>
-
-														<td align="center" style="border-radius:5px;" bgcolor="#6b4e91">
-															<a href="https://example.com" target="_blank" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #ffffff;background-color: #6b4e91;border:1px solid #6b4e91;border-radius:5px;padding:10px 18px;display: inline-block;">Read more
-															</a>
-														</td>
-
-														<td align="center" width="18"></td>
-
-														<td align="center" style="border-radius:5px;" bgcolor="#105191">
-															<a href="https://example.com" target="_blank" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #ffffff;background-color: #105191;border:1px solid #105191;border-radius:5px;padding:10px 18px;display: inline-block;">Destinations
-															</a>
-														</td>
-
-													</tr>
-												</tbody></table>
-											</td>
-										</tr>
-									</tbody></table>
-
-								</td>
-							</tr>
-
-						</tbody></table>
-					</td>
-				</tr>
-<!-- END FULL WIDTH TEXT & BUTTONS -->
-
-<!-- START GREEN BORDER -->
-				<tr>
-					<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-						<table width="100%" style="border-spacing: 0;" role="presentation">
-							<tbody><tr>
-								<td height="5" style="background-color: #105191;"></td>
-							</tr>
-						</tbody></table>
-					</td>
-				</tr>
-<!-- END GREEN BORDER -->
-
-<!-- START SHADOW BANNER -->
-				<tr>
-					<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-						<img src="https://i.ibb.co/JFX5QvX/shadow-2.jpg" width="600" alt="shadow-line" style="border-width:0;width:100%;max-width:600px;">
-					</td>
-				</tr>
-<!-- END SHADOW BANNER -->
-
-<!-- START THREE COLUMNS -->
-				<tr>
-					<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-						<table width="100%" style="border-spacing:0;" role="presentation">
-							<tbody><tr>
-								<td class="three-columns" style="padding-top:40px;padding-right:0;padding-bottom:30px;padding-left:0;text-align:center;font-size:0;">
-
-									<!--[if (gte mso 9)|(IE)]>
-										<table width="100%" style="border-spacing:0;" role="presentation">
-										<tr>
-										<td width="200" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-									<![endif]-->
-
-									<table class="column" style="border-spacing:0;width:100%;max-width:200px;display:inline-block;vertical-align:top;" role="presentation">
-										<tbody><tr>
-											<td class="padding px-sm-0" style="padding-top:20px;padding-right:10px;padding-bottom:20px;padding-left:10px;">
-												<table class="content" style="border-spacing:0;text-align:center;" role="presentation">
-													<tbody><tr>
-														<td>
-															<a href="https://www.example.com" target="_blank"><img class="third-img" src="images/ben-o-bro-ZbWSt_Hz0-I-unsplash.jpg" width="150" alt="a woman in a boat" style="border-width:0;width:100%;max-width:150px;height:auto;"></a>
-														</td>
-													</tr>
-													<tr>
-                                          <td align="center">
-                                             <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-spacing:0;text-align:center;">
-                                                <tbody><tr>
-
-                                                   <!--[if (gte mso 9)|(IE)]>
-                                                      <td style="padding-top:15px;">
-                                                   <![endif]-->
-
-                                                   <td style="padding-top:15px;">
-																		<p style="font-size:17px;line-height:20px;font-weight:bold;">CRUISES</p>
-																		<p style="font-size:15px;">Lorem ipsum dolor bedfro sit amet, consectetur upolix adipiscing elit. Aliquam ac nujmk ante ipsumuis vitae.</p>
-																		<a href="https://www.example.com" target="_blank" style="font-size: 15px;line-height:20px;font-family:'Lato',sans-serif;color:  #105191; text-decoration: none; display: inline-block;">Learn more..</a>
-																	</td>
-
-                                                   <!--[if (gte mso 9)|(IE)]>
-                                                      </td>
-                                                   <![endif]-->
-
-                                                </tr>
-                                             </tbody></table>
-                                          </td>
-                                       </tr>
-												</tbody></table>
-											</td>
-										</tr>
-									</tbody></table>
-
-									<!--[if (gte mso 9)|(IE)]>
-										</td><td width="200" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-									<![endif]-->
-
-									<table class="column" style="border-spacing:0;width:100%;max-width:200px;display:inline-block;vertical-align:top;" role="presentation">
-										<tbody><tr>
-											<td class="padding px-sm-0" style="padding-top:20px;padding-right:10px;padding-bottom:20px;padding-left:10px;">
-												<table class="content" style="border-spacing:0;text-align:center;" role="presentation">
-													<tbody><tr>
-														<td>
-															<a href="https://www.example.com" target="_blank"><img class="third-img" src="images/mike-enerio-tmqsL3BmZ80-unsplash.jpg" width="150" alt="a panorama of a city" style="border-width:0;width:100%;max-width:150px;height:auto;"></a>
-														</td>
-													</tr>
-													<tr>
-                                          <td align="center">
-                                             <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-spacing:0;text-align:center;">
-                                                <tbody><tr>
-
-                                                   <!--[if (gte mso 9)|(IE)]>
-                                                      <td style="padding-top:15px;">
-                                                   <![endif]-->
-
-                                                   <td style="padding-top:15px;">
-																		<p style="font-size:17px;line-height:20px;font-weight:bold;">CITY BREAKS</p>
-																		<p style="font-size:15px;">Lorem ipsum dolor bedfro sit amet, consectetur upolix adipiscing elit. Aliquam ac nujmk ante ipsumuis vitae.</p>
-																		<a href="https://www.example.com" target="_blank" style="font-size: 15px;line-height:20px;font-family:'Lato',sans-serif;color:  #105191; text-decoration: none; display: inline-block;">Learn more..</a>
-																	</td>
-
-                                                   <!--[if (gte mso 9)|(IE)]>
-                                                      </td>
-                                                   <![endif]-->
-
-                                                </tr>
-                                             </tbody></table>
-                                          </td>
-                                       </tr>
-												</tbody></table>
-											</td>
-										</tr>
-									</tbody></table>
-
-									<!--[if (gte mso 9)|(IE)]>
-										</td><td width="200" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-									<![endif]-->
-
-									<table class="column" style="border-spacing:0;width:100%;max-width:200px;display:inline-block;vertical-align:top;" role="presentation">
-										<tbody><tr>
-											<td class="padding px-sm-0" style="padding-top:20px;padding-right:10px;padding-bottom:20px;padding-left:10px;">
-												<table class="content" style="border-spacing:0;text-align:center;" role="presentation">
-													<tbody><tr>
-														<td>
-															<a href="https://www.example.com" target="_blank"><img class="third-img-last" src="images/robson-hatsukami-morgan-r8hw4Zs38zo-unsplash.jpg" width="150" alt="a man in a hot spring" style="border-width:0;width:100%;max-width:150px;height:auto;"></a>
-														</td>
-													</tr>
-													<tr>
-                                          <td align="center">
-                                             <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-spacing:0;text-align:center;">
-                                                <tbody><tr>
-
-                                                   <!--[if (gte mso 9)|(IE)]>
-                                                      <td style="padding-top:15px;">
-                                                   <![endif]-->
-
-                                                   <td style="padding-top:15px;">
-																		<p style="font-size:17px;line-height:20px;font-weight:bold;">WINTER VACATIONS</p>
-																		<p style="font-size:15px;">Lorem ipsum dolor bedfro sit amet, consectetur upolix adipiscing elit. Aliquam ac nujmk ante ipsumuis vitae.</p>
-																		<a href="https://www.example.com" target="_blank" style="font-size: 15px;line-height:20px;color:  #105191; text-decoration: none; display: inline-block;">Learn more..</a>
-																	</td>
-
-                                                   <!--[if (gte mso 9)|(IE)]>
-                                                      </td>
-                                                   <![endif]-->
-
-                                                </tr>
-                                             </tbody></table>
-                                          </td>
-                                       </tr>
-												</tbody></table>
-											</td>
-										</tr>
-									</tbody></table>
-
-									<!--[if (gte mso 9)|(IE)]>
+			<table align="center" style="width: 100%;max-width: 600px;Margin:0;padding-top: 0;padding-right: 0;padding-bottom: 0;padding-left: 0;background-color: #ffffff;color: #3d3d3d;border-spacing: 0;font-family: 'Lato',sans-serif,Arial,Helvetica;" role="presentation">
+				<tbody>
+					<!-- START LOGO -->
+					<tr>
+						<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+							<table style="width:100%;border-spacing:0;" role="presentation">
+								<tbody>
+									<tr>
+										<td style="padding-top:10px;padding-right:0;padding-bottom:8px;padding-left:0;text-align: center;" bgcolor="#105191">
+											<a href="https://www.example.com" target="_blank"><p style="color: #ffffff;font-size:40px;font-weight:bold;"><img src="images/travel (1).png" alt="logo-white" width="60" style="width:100%;max-width:60px;height:auto;display:inline-block;">&nbsp; Travel Agency</p></a>
 										</td>
-										</tr>
-										</table>
-									<![endif]-->
-
-								</td>
-							</tr>
-						</tbody></table>
-					</td>
-				</tr>
-<!-- END THREE COLUMNS -->
-
-<!-- START QUOTE SECTION -->
-				<tr>
-					<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;background-color: #105191;">
-						<table width="100%" style="border-spacing:0;" role="presentation">
-							<tbody><tr>
-								<td class="padding content" style="background-color: #105191;padding-top:13px;padding-right:20px;padding-bottom:15px;padding-left:20px;width:100%;text-align:center;">
-									<p style="color:#ffffff;font-size:17px;font-weight:bold;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ante ipsum. Nam vel ultrices nisl, sit amet iaculis magna."</p>
-									<p style="color:#ffffff;font-size:17px;">-John Smith</p>
-								</td>
-							</tr>
-						</tbody></table>
-					</td>
-				</tr>
-<!-- END QUOTE SECTION -->
-
-<!-- START TWO COLUMNS ROW 1 -->
-            <tr>
-               <td style="padding-top:35px;padding-right:0;padding-bottom:30px;padding-left:0;">
-                  <table width="100%" style="border-spacing:0;" role="presentation">
-                     <tbody><tr>
-                        <td class="two-columns" style="padding-right:0;padding-left:0;font-size:0;text-align: center;">
-
-                           <!--[if (gte mso 9)|(IE)]>
-                              <table width="100%" style="border-spacing:0;" role="presentation">
-                              <tr>
-                              <td width="300" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-                           <![endif]-->
-
-                           <table class="column" style="border-spacing:0;vertical-align:top;width:100%;max-width:300px;display:inline-block;" role="presentation">
-                              <tbody><tr>
-                                 <td class="padding" style="padding-top: 20px;padding-right: 10px;padding-bottom: 20px;padding-left: 10px;">
-
-                                    <table class="content" style="border-spacing:0;text-align: left;" role="presentation">
-                                       <tbody><tr>
-                                          <td>
-                                             <a href="https://example.com" target="_blank">
-																             <img src="images/mateo-krossler-KsOWP1sH6W4-unsplash.jpg" width="280" alt="an abstract graffiti" style="border-width:0;width:100%;max-width:280px;height:210px;display:block;">
-                                             </a>
-														             </td>
-                                       </tr>
-                                    </tbody></table>
-
-                                 </td>
-                              </tr>
-                           </tbody></table>
-
-                           <!--[if (gte mso 9)|(IE)]>
-                           </td><td width="300" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-                           <![endif]-->
-
-                           <table class="column" style="border-spacing:0;vertical-align:top;width:100%;max-width:300px;display:inline-block;" role="presentation">
-                              <tbody><tr>
-                                 <td class="padding" style="padding-top: 20px;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;">
-
-                                    <table class="content" style="border-spacing:0;text-align: left;" role="presentation">
-                                       <tbody><tr>
-                                          <td style="padding-top: 5px;padding-right: 10px;padding-bottom: 15px;padding-left: 10px;">
-                                             <p style="font-size: 17px;font-weight: bold;">Unusual choices</p>
-                                             <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ante ipsum. Nam vel ultrices nisl, sit amet iaculis magna.</p>
-                                          </td>
-                                       </tr>
-                                       <tr>
-                                          <td align="left" style="padding-left: 10px;">
-                                             <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-spacing:0;">
-                                                <tbody><tr>
-
-																	<td align="center" style="border-radius:5px;" bgcolor="#6b4e91">
-																		<a href="https://example.com" target="_blank" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #ffffff;background-color: #6b4e91;border:1px solid #6b4e91;border-radius:5px;padding:10px 15px;display: inline-block;">Read more
-																		</a>
-																	</td>
-
-                                                </tr>
-                                             </tbody></table>
-                                          </td>
-                                       </tr>
-                                    </tbody></table>
-
-                                 </td>
-                              </tr>
-                           </tbody></table>
-
-                           <!--[if (gte mso 9)|(IE)]>
-                              </td>
-                              </tr>
-                              </table>
-                           <![endif]-->
-
-                        </td>
-                     </tr>
-                  </tbody></table>
-               </td>
-            </tr>
-<!-- END TWO COLUMNS ROW 1 -->
-
-<!-- START TWO COLUMNS ROW 2 -->
-            <tr>
-               <td style="padding-top:0px;padding-right:0;padding-bottom:30px;padding-left:0;">
-                  <table width="100%" style="border-spacing:0;" role="presentation">
-                     <tbody><tr>
-                        <td class="two-columns" style="padding-right:0;padding-left:0;font-size:0;text-align: center;">
-
-                           <!--[if (gte mso 9)|(IE)]>
-                              <table width="100%" style="border-spacing:0;" role="presentation">
-                              <tr>
-                              <td width="300" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-                           <![endif]-->
-
-                           <table class="column" style="border-spacing:0;vertical-align:top;width:100%;max-width:300px;display:inline-block;" role="presentation">
-                              <tbody><tr>
-                                 <td class="padding" style="padding-top: 20px;padding-right: 10px;padding-bottom: 20px;padding-left: 10px;">
-
-                                    <table class="content" style="border-spacing:0;text-align: left;" role="presentation">
-                                       <tbody><tr>
-                                          <td>
-                                             <a href="https://example.com" target="_blank">
-																<img src="images/sara-dubler-Koei_7yYtIo-unsplash.jpg" width="280" alt="a tropical hotel" style="border-width:0;width:100%;max-width:280px;height:210px;display:block;">
-                                             </a>
-														</td>
-                                       </tr>
-                                    </tbody></table>
-
-                                 </td>
-                              </tr>
-                           </tbody></table>
-
-                           <!--[if (gte mso 9)|(IE)]>
-                           </td><td width="300" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-                           <![endif]-->
-
-                           <table class="column" style="border-spacing:0;vertical-align:top;width:100%;max-width:300px;display:inline-block;" role="presentation">
-                              <tbody><tr>
-                                 <td class="padding" style="padding-top: 20px;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;">
-
-                                    <table class="content" style="border-spacing:0;text-align: left;" role="presentation">
-                                       <tbody><tr>
-                                          <td style="padding-top: 10px;padding-right: 10px;padding-bottom: 15px;padding-left: 10px;">
-                                             <p style="font-size: 17px;font-weight: bold;">Luxury trips</p>
-                                             <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ante ipsum. Nam vel ultrices nisl, sit amet iaculis magna.</p>
-                                          </td>
-                                       </tr>
-                                       <tr>
-                                          <td align="left" style="padding-left: 10px;">
-                                             <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-spacing:0;">
-                                                <tbody><tr>
-
-																	<td align="center" style="border-radius:5px;" bgcolor="#6b4e91">
-																		<a href="https://example.com" target="_blank" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #ffffff;background-color: #6b4e91;border:1px solid #6b4e91;border-radius:5px;padding:10px 15px;display: inline-block;">Read more
-																		</a>
-																	</td>
-
-                                                </tr>
-                                             </tbody></table>
-                                          </td>
-                                       </tr>
-                                    </tbody></table>
-
-                                 </td>
-                              </tr>
-                           </tbody></table>
-
-                           <!--[if (gte mso 9)|(IE)]>
-                              </td>
-                              </tr>
-                              </table>
-                           <![endif]-->
-
-                        </td>
-                     </tr>
-                  </tbody></table>
-               </td>
-            </tr>
-<!-- END TWO COLUMNS ROW 2 -->
-
-<!-- START BANNER 2 -->
-				<tr>
-					<td class="container" background="images/joanna-kosinska-uGcDWKN91Fs-unsplash.jpg" alt="envelopes" width="600" height="255" style="background-position: center top;">
-
-						<!--[if (gte mso 9)|(IE)]>
-						<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:255px;">
-							<v:fill type="tile" src="images/joanna-kosinska-uGcDWKN91Fs-unsplash.jpg" color="#ffffff" />
-							<v:textbox inset="0,0,0,0">
-						<![endif]-->
-
-						<table class="darkmode-transparent" cellpadding="0" cellspacing="0" role="presentation">
-							<tbody><tr>
-								<td width="600" height="100" align="center" valign="top">
-									<table class="darkmode-transparent" cellpadding="0" cellspacing="0" role="presentation">
-										<tbody><tr>
-											<td align="center">
-												<table class="darkmode-transparent" role="presentation">
-													<tbody><tr>
-
-													<!--[if (gte mso 9)|(IE)]>
-                                          <td style="padding-top:70px;"></td>
-                                       <![endif]-->
-
-														<td valign="top" align="center" style="padding-right:15px;padding-left:15px; vertical-align:middle;">
-
-															<p style="font-size: 22px; line-height: 26px; font-weight:bold; color: #3d3d3d;">Are you ready for your next trip?</p>
-
-															<p align="center" style="font-size:18px;line-height: 18px;color: #3d3d3d;">Let us help you find one!</p>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<!-- END LOGO -->
+					<!-- START BANNER -->
+					<tr>
+						<td class="banner" background="images/pexels-thach-tran-756856.jpg" width="600" height="350" style="background-position: center top;">
+							<!--[if(gte mso9)|(IE)]>
+								<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:350px;">
+								<v:fill type="tile" src="C:\Users\toshiba\Desktop\Agencja Turystyczna\images\pexels-thach-tran-756856.jpg" color="#ffffff"/>
+								<v:textbox inset="0,0,0,0">		
+							<![endif]-->
+							<table class="darkmode-transparent" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;" role="presentation">
+								<tbody>
+									<tr>
+										<td width="600" align="center" valign="middle" style="padding: 0;">
+											<table class="darkmode-transparent" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;" role="presentation">
+												<tbody>
+													<tr>
+														<td align="center" style="padding: 0;" bgcolor="#105191">
+															<table class="darkmode-transparent" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td align="center" style="padding-top: 0;padding-right:10px;padding-bottom:0;padding-left:10px;">
+																			<p style="text-align: center;color:#ffffff;font-size:30px;">OUR &nbsp; NEWSLETTER</p>
+																			<p style="text-align: center;color:#ffffff;font-size:18px;">Check your next destination.</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
 														</td>
 													</tr>
-												</tbody></table>
-											 </td>
-										</tr>
-										<tr>
-											<td align="center">
-												<table class="darkmode-transparent" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
-													<tbody><tr>
-
-													<!--[if (gte mso 9)|(IE)]>
-														<td style="padding-top:20px;"></td>
-													<![endif]-->
-
+													<tr>
+														<td align="center" style="padding-bottom:30px;" bgcolor="#105191">
+															<table class="darkmode-transparent" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td align="center" style="padding:0;">
+																			<a href="https://www.example.com" target="_blank" style="padding:12px 18px;background-color: #6b4e91;border:2px solid #ffffff;border-radius: 5px;color:#ffffff;text-align: center;font-size: 16px;display: inline-block; text-decoration: none;font-weight: bold;height: auto;">GET STARTED</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="25"></td>
+									</tr>
+								</tbody>
+							</table>
+							<!--[if(gte mso9)|(IE)]>
+							   </v:textbox>
+						      </v:rect>	
+							<![endif]-->
+						</td>
+					</tr>
+					<!-- END BANNER -->
+					<!-- START FULL WIDTH TEXT WITH TWO BUTTONS -->
+					<tr>
+						<td style="padding-top:22px;padding-right:20px;padding-bottom:50px;padding-left:20px;">
+							<table width="100%" style="border-spacing: 0;" role="presentation">
+								<tbody>
+									<tr>
+										<td>
+											<p style="padding-bottom: 5px;font-size:20px;font-weight:bold;text-align: center;">Something about <strong style="font-size: 20px;color:#105191;font-weight:bold;">us</strong></p>
+											<p style="font-size: 15px;padding-bottom: 18px;text-align: justify;line-height: 1.5;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis orci tellus, quis interdum eros suscipit in. Nulla facilisi. Sed semper laoreet tellus, vitae ultrices nibh. Quisque rhoncus eu nulla et congue. Mauris efficitur tortor diam. Ut finibus pellentesque dui sit amet sollicitudin. Suspendisse fermentum ligula libero.</p>
+											<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+												<tbody>
+													<tr>
+														<td align="center" style="padding: 0;font-size: 0;text-align: center;">
+															<table cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;display:inline-block" role="presentation">
+																<tbody>
+																	<tr>
+																		<td class="px-button-sm" align="center" style="padding: 0;">
+																			<a href="https://www.example.com" target="_blank" style="text-decoration: none;padding: 10px 18px;background-color: #6b4e91;border:1px solid #6b4e91;border-radius: 5px;color: #ffffff;font-weight: bold;font-size: 16px;display: inline-block;">Read more</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															<table cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;display: inline-block;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td class="d-sm-0" width="18" align="center"></td>
+																	</tr>
+																</tbody>
+															</table>
+															<table cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;display: inline-block;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td class="px-button-sm" align="center" style="padding: 0;">
+																			<a href="https://www.example.com" target="_blank" style="text-decoration: none;padding: 10px 18px;background-color: #105191;border:1px solid #105191;border-radius: 5px;color: #ffffff;font-weight: bold;font-size: 16px;display: inline-block;">Destinations</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<!-- END FULL WIDTH TEXT WITH TWO BUTTONS -->
+					<!-- START BLUE LINE -->
+					<tr>
+						<td height="5" bgcolor="#105191"></td>
+					</tr>
+					<!-- END BLUE LINE -->
+					<!-- START SHADOW LINE -->
+					<tr>
+						<td>
+							<img src="https://i.ibb.co/JFX5QvX/shadow-2.jpg" alt="shadow-line" width="600" border="0" style="border-width: 0;width:100%;max-width:600px;">
+						</td>
+					</tr>
+					<!-- END SHADOW LINE -->
+					<!-- START THREE COLUMNS -->
+					<tr>
+						<td style="padding-top: 0;padding-right:0;padding-bottom:0;padding-left:0;">
+							<table width="100%" style="border-spacing: 0;" role="presentation">
+								<tbody>
+									<tr>
+										<td class="three-columns" style="padding-top: 40px;padding-right:0;padding-bottom:30px;padding-left:0;font-size: 0;text-align: center;">
+											<!--[if(gte mso9)|(IE)]>
+												<table width="100%" style="border-spacing:0;" role="presentation">
+												<tr>
+												<td width="200" valign="top" style="padding-top: 0;padding-right:0;padding-bottom:0;padding-left:0;">		
+											<![endif]-->
+											<table class="column" width="200" align="center" style="width:100%;max-width:200px;border-spacing:0;vertical-align:top;display:inline-block;" role="presentation">
+												<tbody>
+													<tr>
+														<td class="padding px-sm-0" style="padding-top: 20px;padding-right:10px;padding-bottom:20px;padding-left:10px;">
+															<table class="content" style="width:100%;border-spacing:0;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td align="center">
+																			<a href="https://www.example.com" target="_blank"><img class="third-img" src="images/ben-o-bro-ZbWSt_Hz0-I-unsplash.jpg" alt="a woman in a boat" width="150" style="width: 100%;max-width:150px;height: auto;display:block;"></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align="center" style="padding-top: 15px;">
+																			<p style="font-size: 17px;font-weight:bold;">CRUISES</p>
+																			<p>Lorem ipsum dolor bedfro sit amet, consectetur upolix adipiscing elit. Aliquam ac nujmk ante ipsumuis vitae.
+																				</p>
+																			<a href="https://www.example.com" target="_blank" style="text-decoration: none;color:#105191;font-size:15px;">Learn more..</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<!--[if(gte mso9)|(IE)]>
+											</td><td width="200" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+											<![endif]-->
+											<table class="column" width="200" align="center" style="border-spacing: 0;width:100%;max-width:200px;vertical-align:top;display:inline-block;" role="presentation">
+												<tbody>
+													<tr>
+														<td class="padding px-sm-0" align="center" style="padding-top:20px;padding-right:10px;padding-bottom:20px;padding-left:10px;">
+															<table class="content" align="center" style="width:100%;border-spacing:0;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td align="center">
+																			<a href="https://www.example.com" target="_blank"><img class="third-img" src="images/mike-enerio-tmqsL3BmZ80-unsplash.jpg" alt="skyscrapers" width="150" style="width:100%;max-width:150px;height:auto;display:block;"></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align="center" style="padding-top: 15px;">
+																			<p style="font-size: 17px;font-weight:bold;">CITY BREAKS</p>
+																			<p>Lorem ipsum dolor bedfro sit amet, consectetur upolix adipiscing elit. Aliquam ac nujmk ante ipsumuis vitae.</p>
+																			<a href="https://www.example.com" target="_blank" style="text-decoration: none;font-size:15px;color:#105191;">Learn more..</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<!--[if(gte mso9)|(IE)]>
+											</td><td width="200" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+											<![endif]-->
+											<table class="column" width="200" align="center" style="width: 100%;max-width:200px;border-spacing:0;vertical-align:top;display:inline-block;" role="presentation">
+												<tbody>
+													<tr>
+														<td class="padding px-sm-0" align="cnter" style="padding-top:20px;padding-right:10px;padding-bottom:20px;padding-left:10px;">
+															<table class="content" align="center" style="width:100%;border-spacing:0;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td align="center">
+																			<a href="https://www.example.com" target="_blank"><img class="third-img-last" src="images/robson-hatsukami-morgan-r8hw4Zs38zo-unsplash.jpg" alt="a man in a hot spring" width="150" style="width:100%;max-width:150px;height:auto;display:block;"></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align="center" style="padding-top: 15px;">
+																			<p style="font-size: 17px;font-weight:bold;">WINTER VACATIONS</p>
+																			<p>Lorem ipsum dolor bedfro sit amet, consectetur upolix adipiscing elit. Aliquam ac nujmk ante ipsumuis vitae.
+																				</p>
+																			<a href="https://www.example.com" target="_blank" style="color:#105191;font-size:15px;text-decoration:none;">Learn more..</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<!--[if(gte mso9)|(IE)]>
+											   </td>
+										      </tr>
+									         </table>
+											<![endif]-->
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<!-- END THREE COLUMNS -->
+					<!-- START FULL WIDTH TEXT -->
+					<tr>
+						<td style="padding-top: 0;padding-right:0;padding-bottom:0;padding-left:0;">
+							<table width="100%" style="border-spacing: 0;" role="presentation">
+								<tbody>
+									<tr>
+										<td style="padding-top: 13px;padding-right:20px;padding-bottom:15px;padding-left:20px;" bgcolor="#105191">
+											<table style="border-spacing: 0;" role="presentation">
+												<tbody>
+													<tr>
+														<td align="center">
+															<p style="font-size: 17px;font-weight:bold;color:#ffffff;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ante ipsum. Nam vel ultrices nisl, sit amet iaculis magna."</p>
+															<p style="font-size: 17px;color:#ffffff;">-John Smith</p>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<!-- END FULL WIDTH TEXT -->
+					<!-- START TWO COLUNS ROW 1 -->
+					<tr>
+						<td style="padding-top: 0;padding-right:0;padding-bottom:0;padding-left:0;">
+							<table width="100%" style="border-spacing: 0;" role="presentation">
+								<tbody>
+									<tr>
+										<td class="two-columns" style="padding-top: 35px;padding-right:0;padding-bottom:30px;padding-left:0;text-align: center;font-size:0;">
+											<!--[if(gte mso9)|(IE)]>
+												<table width="100%" style="border-spacing:0;" role="presentation">
+												<tr>
+												<td width="300" valign="top" style="padding-top: 0;padding-right:0;padding-bottom:0;padding-left:0;">
+											<![endif]-->
+											<table class="column" width="300" align="center" style="width:100%;max-width:300px;border-spacing:0;vertical-align: top;display: inline-block;" role="presentation">
+												<tbody>
+													<tr>
+														<td class="padding" align="center" style="padding-top: 20px;padding-right:10px;padding-bottom:20px;padding-left:10px;">
+															<table class="content" style="border-spacing: 0;width:100%;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td>
+																			<a href="https://www.example.com" target="_blank"><img src="images/mateo-krossler-KsOWP1sH6W4-unsplash.jpg" alt="graffiti" width="280" height="210" border="0" style="border-width: 0;width:100%;max-width: 280px;height: 210px;display: block;"></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<!--[if(gte mso9)|(IE)]>
+											</td><td width="300" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+											<![endif]-->
+											<table class="column" width="300" align="center" style="border-spacing: 0;width:100%;max-width:300px;vertical-align:top;display:inline-block;" role="presentation">
+												<tbody>
+													<tr>
+														<td class="padding" align="center" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;">
+															<table class="content" align="center" style="width:100%;border-spacing:0;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td style="padding-top:10px;padding-right:10px;padding-bottom:15px;padding-left:10px;text-align: left;">
+																			<p style="font-size:17px;font-weight:bold;">Unusual choices</p>
+																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ante ipsum. Nam vel ultrices nisl, sit amet iaculis magna.</p>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align="left" style="padding-left: 10px;">
+																			<a href="https://www.example.com" target="_blank" style="text-decoration: none;padding:10px 15px;background-color:#6b4e91;border:1px solid #6b4e91;border-radius: 5px;color:#ffffff;font-weight: bold;font-size: 16px;display: inline-block;">Read more</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<!--[if(gte mso9)|(IE)]>
+											   </td>
+										      </tr>
+									         </table>
+											<![endif]-->
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<!-- END TWO COLUMNS ROW 1 -->
+					<!-- START TWO COLUMNS ROW 2 -->
+					<tr>
+						<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+							<table width="100%" style="border-spacing: 0;" role="presentation">
+								<tbody>
+									<tr>
+										<td class="two-columns" style="padding-bottom:30px;text-align:center;font-size:0;">
+											<!--[if(gte mso9)|(IE)]>
+												<table width="100%" style="border-spacing:0;" role="presentation">
+												<tr>
+												<td width="300" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+											<![endif]-->
+											<table class="column" width="300" align="center" style="width:100%;max-width:300px;border-spacing:0;vertical-align:top;display:inline-block;" role="presentation">
+												<tbody>
+													<tr>
+														<td class="padding" align="center" style="padding-top:20px;padding-right:10px;padding-bottom:20px;padding-left:10px;">
+															<table class="content" align="center" style="border-spacing: 0;width:100%;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td>
+																			<a href="https://www.example.com" target="_blank"><img src="images/sara-dubler-Koei_7yYtIo-unsplash.jpg" alt="tropical hotel" width="280" height="210" border="0" style="width:100%;max-width:280px;height:210px;border-width:0;display:block;"></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<!--[if(gte mso9)|(IE)]>
+											</td><td width="300" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+											<![endif]-->
+											<table class="column" width="300" align="center" style="border-spacing:0;width:100%;max-width:300px;vertical-align:top;display:inline-block;">
+												<tbody>
+													<tr>
+														<td class="padding" align="center" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;">
+															<table class="content" align="center" style="border-spacing: 0;width:100%;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td style="padding-top:10px;padding-right:10px;padding-bottom:15px;padding-left:10px;text-align: left;">
+																			<p style="font-size:17px;font-weight:bold;">Luxury trips</p>
+																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ante ipsum. Nam vel ultrices nisl, sit amet iaculis magna.</p>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align="left" style="padding-left: 10px;">
+																			<a href="https://www.example.com" target="_blank" style="text-decoration: none;padding:10px 15px;background-color:#6b4e91;border:1px solid #6b4e91;border-radius:5px;color:#ffffff;font-weight:bold;font-size:16px;display:inline-block;">Read more</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<!--[if(gte mso9)|(IE)]>
+											   </td>
+										      </tr>
+									         </table>
+											<![endif]-->
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<!-- END TWO COLUMNS ROW 2 -->
+					<!-- START SECOND BANNER -->
+					<tr>
+						<td class="banner" background="C:\Users\toshiba\Desktop\Agencja Turystyczna\images\joanna-kosinska-uGcDWKN91Fs-unsplash.jpg" width="600" height="255" style="background-position: center top;">
+							<!--[if(gte mso9)|(IE)]>
+								<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:255px;">
+								<v:fill type="tile" src="images/joanna-kosinska-uGcDWKN91Fs-unsplash.jpg" color="#ffffff"/>
+								<v:textbox inset="0,0,0,0">	
+							<![endif]-->
+							<table class="darkmode-transparent" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;" role="presentation">
+								<tbody>
+									<tr>
+										<td width="600" valign="middle" align="center" style="padding:0;">
+											<table class="darkmode-transparent" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;" role="presentation">
+												<tbody>
+													<tr>
+														<td align="center" style="padding: 0;">
+															<table class="darkmode-transparent" style="border-spacing: 0;" role="presentation">
+																<tbody>
+																	<tr>
+																		<td align="center" style="padding-top:0;padding-right:15px;padding-bottom:0;padding-left:15px;">
+																			<p style="font-size: 22px;font-weight:bold;">Are you ready for your next trip?</p>
+																			<p style="font-size:18px;">Let us help you find one!</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+													<tr>
 														<td align="center" style="padding-top: 15px;">
-															<table class="darkmode-transparent" border="0" cellspacing="0" cellpadding="0" role="presentation">
-																<tbody><tr>
-
-																	<td align="center" style="border-radius:5px;" bgcolor="#6b4e91">
-																		<a href="https://example.com" target="_blank" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #ffffff;background-color: #6b4e91;border:1px solid #6b4e91;border-radius:5px;padding:10px 15px;display: inline-block;">Contact Us
-																		</a>
-																	</td>
-
-																	<td align="center" width="18"></td>
-
-																	<td align="center" style="border-radius:5px;" bgcolor="#105191">
-																		<a href="https://example.com" target="_blank" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #ffffff;background-color: #105191;border:1px solid #105191;border-radius:5px;padding:10px 15px;display: inline-block;">Visit Online
-																		</a>
-																	</td>
-
-																</tr>
-															</tbody></table>
+															<table class="darkmode-transparent" cellpadding="0" cellspacing="0" border="0" role="presentation">
+																<tbody>
+																	<tr>
+																		<td align="center" style="padding: 0;font-size:0;text-align:center;">
+																			<table class="darkmode-transparent" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;display:inline-block;" role="presentation">
+																				<tbody>
+																					<tr>
+																						<td class="px-button-sm" align="center">
+																							<a href="https://www.example.com" target="_blank" style="text-decoration: none;padding:10px 15px;background-color:#6b4e91;border:1px solid #6b4e91;border-radius:5px;color:#ffffff;font-size:16px;font-weight:bold;display:inline-block;">Contact Us</a>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																			<table class="darkmode-transparent" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;display:inline-block;" role="presentation">
+																				<tbody>
+																					<tr>
+																						<td class="d-sm-0" width="18"></td>
+																					</tr>
+																				</tbody>
+																			</table>
+																			<table class="darkmode-transparent" align="center"cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;display:inline-block;" role="presentation">
+																				<tbody>
+																					<tr>
+																						<td class="px-button-sm" align="center">
+																							<a href="https://www.example.com" target="_blank" style="text-decoration: none;padding:10px 15px;background-color:#105191;border:1px solid #105191;border-radius:5px;color:#ffffff;font-size:16px;font-weight:bold;display:inline-block;">Visit Online</a>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+														
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="20"</td>
+									</tr>
+								</tbody>
+							</table>
+							<!--[if(gte mso9)|(IE)]>
+							   </v:textbox>
+						      </v:rect>
+							<![endif]-->
+						</td>
+					</tr>
+					<!-- END SECOND BANNER -->
+					<!-- START SOCIAL MEDIA -->
+					<tr>
+						<td style="padding-top: 0;padding-right:0;padding-bottom:0;padding-left:0;">
+							<table width="100%" style="border-spacing:0;" role="presentation">
+								<tbody>
+									<tr>
+										<td align="center" style="padding-top: 10px;padding-right:20px;padding-bottom:20px;padding-left:20px;" bgcolor="#105191">
+											<table style="border-spacing: 0;width:100%" role="presentation">
+												<tbody>
+													<tr>
+														<td align="center">
+															<p style="color: #ffffff;padding-bottom:5px;font-size:18px;">Connect with us</p>
+															<a href="https://www.example.com" target="_blank"><img src="images/white-facebook.png" alt="facebook" width="30" style="width: 100%;max-width:30px;height:auto;display:inline-block"></a>
+															<a href="https://www.example.com" target="_blank"><img src="images/white-twitter.png" alt="twitter" width="30" style="width: 100%;max-width:30px;height:auto;display:inline-block"></a>
+															<a href="https://www.example.com" target="_blank"><img src="images/white-youtube.png" alt="youtube" width="30" style="width: 100%;max-width:30px;height:auto;display:inline-block"></a>
+															<a href="https://www.example.com" target="_blank"><img src="images/white-linkedin.png" alt="linkedin" width="30" style="width: 100%;max-width:30px;height:auto;display:inline-block"></a>
+															<a href="https://www.example.com" target="_blank"><img src="images/white-instagram.png" alt="instagram width="30" style="width: 100%;max-width:30px;height:auto;display:inline-block"></a>
 														</td>
 													</tr>
-												</tbody></table>
-											</td>
-										</tr>
-									</tbody></table>
-								</td>
-							</tr>
-							<tr>
-								<td height="20">&nbsp;</td>
-							</tr>
-						</tbody></table>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<!-- END SOCIAL MEDIA -->
+					<!-- START FOOTER -->
+					<tr>
+						<td style="padding-top: 0;padding-right:0;padding-bottom:0;padding-left:0;">
+							<table width="100%" style="border-spacing: 0;" role="presentation">
+								<tbody>
+									<tr>
+										<td align="center" style="padding-top: 10px;padding-right:20px;padding-bottom:10px;padding-left:20px;">
+											<a href="https://www.example.com" target="_blank"><p style="font-size: 40px;color:#105191;font-weight:bold;"><img src="images/travel (1)blue.png" width="60" alt="logo-blue" style="width: 100%;max-width:60px;height:auto;display:inline-block;">&nbsp; Travel Agency</p></a>
+											<p style="font-size: 13px;font-weight:bold;color:#105191;">Making travel easy.</p>
+											<p style="font-size: 13px;">123 Street Road, City, State 55555</p>
+											
+											<p style="font-size: 13px;">
+												<a href="mailto:email@example.com" style="text-decoration: none;color:#105191;font-size:13px;">email@example.com</a>
+											</p>
+											<p style="font-size: 13px;"><a href="tel:18008888888" style="text-decoration: none;color:#105191;font-size:13px;">1-800-888-8888</a>
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding-top: 0;padding-right:0;padding-bottom:50px;padding-left:0;">
+											<table style="width: 100%;border-spacing:0;" role="presentation">
+												<tbody>
+													<tr>
+														<td align="center">
+															<p style="font-size: 13px;color:#105191;"><a href="https://www.example.com" target="_blank" style="font-size: 13px;color:#105191;text-decoration:none;">UNSUBSCRIBE</a></p>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+						   </table>
+						</td>
+					</tr>
+					<!-- END FOOTER -->
+					<!-- START BOTTOM BLUE LINE -->
+					<tr>
+						<td height="20" bgcolor="#105191"></td>
+					</tr>
+					<!-- END BOTTOM BLUE LINE -->
+					
 
-						<!--[if (gte mso 9)|(IE)]>
-						</v:textbox>
-						</v:rect>
-						<![endif]-->
-
-					</td>
-				</tr>
-<!-- END BANNER 2 -->
-
-<!-- START SOCIAL ICONS -->
-				<tr>
-					<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-						<table width="100%" style="border-spacing:0;" role="presentation">
-							<tbody><tr>
-								<td class="padding content" style="background-color:#105191;color:#ffffff;font-size:16px;padding-top:10px;padding-right:20px;padding-bottom:20px;padding-left:20px;width:100%;text-align:center; width:600px;">
-									<p style="font-size:18px;line-height: 35px;padding-bottom: 5px;">Connect with us</p>
-									<a href="https://www.example.com" target="_blank"><img src="https://i.ibb.co/MMzjYp3/white-facebook.png" alt="footer facebook" width="30" style="border-width:0;"></a>
-									<a href="https://www.example.com" target="_blank"><img src="https://i.ibb.co/NZjYj8j/white-twitter.png" alt="footer twitter" width="30" style="border-width:0;"></a>
-									<a href="https://www.example.com" target="_blank"><img src="https://i.ibb.co/s9Z2c7z/white-youtube.png" alt="footer youtube" width="30" style="border-width:0;"></a>
-									<a href="https://www.example.com" target="_blank"><img src="https://i.ibb.co/5v7H6tY/white-linkedin.png" alt="footer linkedin" width="30" style="border-width:0;"></a>
-									<a href="https://www.example.com" target="_blank"><img src="https://i.ibb.co/X8hFFgv/white-instagram.png" alt="footer instagram" width="30" style="border-width:0;"></a>
-								</td>
-							</tr>
-						</tbody></table>
-					</td>
-				</tr>
-<!-- END SOCIAL ICONS -->
-
-<!-- START FOOTER -->
-				<tr>
-					<td style="background-color:#efefef;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-						<table width="100%" style="border-spacing:0;" role="presentation">
-							<tbody><tr>
-								<td class="padding content" style="font-size:13px;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;width:100%;text-align:center; width:600px;">
-							  	<a href="https://www.example.com" target="_blank"><p style="color:#105191;font-size:40px;font-weight:bold;"><img src="images/travel (1)blue.png" alt="logo-blue" width="60" style="border-width:0;">&nbsp Travel Agency</p></a>
-									<p style="font-size:13px;font-weight:bold;color:#105191;">Making travel easy.</p>
-									<p style="font-size:13px;text-decoration:none;">123 Street Road, City, State 55555</p>
-									<p><a style="font-size:13px; color:#105191;text-decoration:none;" href="mailto:email@example.com">email@example.com</a></p>
-									<p><a style="font-size:13px; color:#105191;text-decoration:none;" href="tel:18008888888">1-800-888-8888</a></p>
-								</td>
-							</tr>
-							<tr>
-								<td align="center" style="color:#105191; font-size:13px; text-transform:uppercase;padding-bottom:50px;">
-									<a href="https://www.example.com" target="_blank" style="color:#105191;font-size:12px;text-decoration:none;">UNSUBSCRIBE</a>
-								</td>
-							</tr>
-							<tr>
-								<td align="center" width="100%" height="20" style="background-color:#105191;">
-								</td>
-							</tr>
-						</tbody></table>
-					</td>
-				</tr>
-<!-- END FOOTER -->
-
-			</tbody></table>
-
-			<!--[if (gte mso 9)|(IE)]>
-				</td>
-				</tr>
-				</table>
+				</tbody>
+			</table>
+			<!--[if(gte mso9)|(IE)]>
+			   </td>
+		      </tr>
+	         </table>
 			<![endif]-->
-
 		</div>
 	</center>
-
 </body>
 </html>
